@@ -110,6 +110,22 @@ swiper-container {
     letter-spacing: 0.5px;
     margin: 0px 0 30px 0;
   }
+  button{
+    transition: 0.2s ease-in-out;
+  }
+button:hover{
+    color:#DD2242;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+    
+}
+.social-item:hover path{
+    fill: #DD2242;
+    transition: 0.2s ease-in-out;
+}
+.life-video-svg:hover {
+    fill: #DD2242;
+}
  
 
 @media screen and (max-width: 400px){
@@ -337,6 +353,14 @@ swiper-container {
         align-items: center;   
         
     }
+    .link-up:hover{
+        bottom: 50px;
+        transition: 0.3s ease-in-out;
+    }
+    .link-up:active{
+        bottom: 45px;
+        transition: 0.15s
+    }
     .circle-shell{
         display: flex;
         justify-content: center;
@@ -363,6 +387,11 @@ swiper-container {
         height: 723px;
         background: #010A20;
         text-align: center;
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 36px;
+        letter-spacing: 0.637311px;
     }
     .link-up{
         border-radius: 50%;
@@ -371,8 +400,39 @@ swiper-container {
         background-color: #DD2242;
         position: relative;
         bottom: 40px;
+        margin-bottom: 40px;
+        transition: 0.3s ease-in-out;
+    }
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        row-gap: 36px;
+        margin: 40px 0;
+        
+    }
 
+    .footer__nav-item:hover{
+        color:#DD2242;
+    }
+    .footer__socials {
+        display: flex;
+        justify-content: center;
+        gap: 63px;
+        margin-bottom: 42px;
+    }
+    .social-item{
+        transition-duration: 0.2s;
+       
+    }
+    .social-item:hover{
+        transform: scale(1.1);
+        transition: 0.2s ease-in-out;
+        
     }
     
+    .social-item-svg:hover{
+        fill: #DD2242;
+    }
+
 
 }
