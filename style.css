@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
-*{padding: 0;margin: 0;box-sizing: border-box; border: 0;}
-
+*{padding: 0;margin: 0;box-sizing: border-box; border: 0; scroll-behavior: smooth;}
+ul li{list-style: none;}
 
 body{
     font-family: 'DM Sans', 'Roboto', sans-serif;
@@ -52,7 +52,7 @@ body{
 swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-image: url("/img/stezka.png");
+    background-image: url("./img/stezka.png");
     background-position: center;
     display: flex;
     justify-content: center;
@@ -112,6 +112,8 @@ swiper-container {
   }
   button{
     transition: 0.2s ease-in-out;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
   }
 button:hover{
     color:#DD2242;
@@ -123,9 +125,12 @@ button:hover{
     fill: #DD2242;
     transition: 0.2s ease-in-out;
 }
-.life-video-svg:hover {
+.life-video-svg ellipse:hover{
     fill: #DD2242;
+    cursor: pointer;
 }
+
+ 
  
 
 @media screen and (max-width: 400px){
@@ -155,10 +160,12 @@ button:hover{
         position: relative;
         left: 33px;
         top: 8px;
+        cursor: pointer;
     }
     .burger{
         position: relative;
         top: 8px;
+        cursor: pointer;
     }
     
     .header__content{
@@ -357,6 +364,13 @@ button:hover{
         bottom: 50px;
         transition: 0.3s ease-in-out;
     }
+    .link-up:hover svg{
+        fill: #DD2242;
+        transition: 0.3s ease-in-out;
+    }
+    .link-up svg{
+        transition: 0.3s ease-in-out;
+    }
     .link-up:active{
         bottom: 45px;
         transition: 0.15s
@@ -408,11 +422,12 @@ button:hover{
         flex-direction: column;
         row-gap: 36px;
         margin: 40px 0;
-        
+        align-items: center;
     }
 
     .footer__nav-item:hover{
         color:#DD2242;
+        cursor: pointer;
     }
     .footer__socials {
         display: flex;
@@ -422,7 +437,7 @@ button:hover{
     }
     .social-item{
         transition-duration: 0.2s;
-       
+        cursor: pointer;
     }
     .social-item:hover{
         transform: scale(1.1);
