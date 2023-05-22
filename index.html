@@ -39,6 +39,12 @@
                             </defs>
                         </svg>
                     </div>
+                    <ul class="nav__bar">
+                        <li class="nav__bar-item">destinations</li>
+                        <li class="nav__bar-item">experiences</li>
+                        <li class="nav__bar-item">about</li>
+                        <li class="nav__bar-item">gallery</li>
+                    </ul>
                     <svg class="magnifier" width="18" height="18" viewBox="0 0 18 18" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -54,36 +60,42 @@
                     </svg>
                 </nav>
                 <div class="header__main">
-                    <svg width="301" height="106" viewBox="0 0 301 106" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M25.7634 24.4807H10.0898V34.3335H28.6029V42H0.123373V0.657893H28.6596V8.35275H10.0898V17.0698H25.7634V24.4807ZM48.0814 14.4007L54.8392 0.657893H66.2253L54.6688 21.1586L66.5376 42H55.038L48.0814 28.0016L41.1247 42H29.6534L41.4939 21.1586L29.9658 0.657893H41.3235L48.0814 14.4007ZM79.7694 27.9732V42H69.803V0.657893H86.3001C89.4613 0.657893 92.2534 1.24471 94.6764 2.41834C97.1183 3.57304 99.0018 5.22938 100.327 7.38734C101.671 9.52638 102.343 11.9588 102.343 14.6847C102.343 18.7167 100.895 21.9442 97.9985 24.3671C95.1213 26.7712 91.165 27.9732 86.1297 27.9732H79.7694ZM79.7694 20.2784H86.3001C88.2309 20.2784 89.6979 19.7957 90.7012 18.8302C91.7234 17.8648 92.2345 16.5019 92.2345 14.7415C92.2345 12.8107 91.7139 11.2679 90.6728 10.1132C89.6317 8.95849 88.212 8.37168 86.4137 8.35275H79.7694V20.2784ZM117.647 34.3335H134.996V42H107.681V0.657893H117.647V34.3335ZM172.392 22.1808C172.392 26.2128 171.644 29.781 170.148 32.8854C168.653 35.9899 166.523 38.3845 163.76 40.0692C161.015 41.735 157.882 42.5679 154.361 42.5679C150.84 42.5679 147.717 41.7634 144.991 40.1544C142.265 38.5264 140.136 36.2076 138.602 33.1978C137.088 30.188 136.293 26.7333 136.217 22.8338V20.5055C136.217 16.4546 136.956 12.8864 138.432 9.80086C139.927 6.69642 142.057 4.30183 144.821 2.6171C147.603 0.932371 150.765 0.090007 154.304 0.090007C157.806 0.090007 160.93 0.922907 163.675 2.58871C166.419 4.2545 168.549 6.63016 170.063 9.71568C171.597 12.7823 172.373 16.3032 172.392 20.2784V22.1808ZM162.255 20.4487C162.255 16.341 161.564 13.2271 160.182 11.107C158.819 8.96796 156.86 7.89844 154.304 7.89844C149.307 7.89844 146.666 11.6465 146.382 19.1426L146.354 22.1808C146.354 26.2317 147.026 29.3456 148.37 31.5225C149.714 33.6994 151.711 34.7878 154.361 34.7878C156.879 34.7878 158.819 33.7183 160.182 31.5793C161.545 29.4403 162.236 26.3642 162.255 22.3511V20.4487ZM192.892 27.4053H187.497V42H177.531V0.657893H193.801C198.704 0.657893 202.537 1.74634 205.301 3.92324C208.064 6.10013 209.446 9.17618 209.446 13.1514C209.446 16.0287 208.859 18.4138 207.686 20.3068C206.531 22.1997 204.714 23.733 202.234 24.9066L210.866 41.5741V42H200.19L192.892 27.4053ZM187.497 19.7105H193.801C195.694 19.7105 197.114 19.2183 198.06 18.234C199.025 17.2307 199.508 15.8394 199.508 14.06C199.508 12.2806 199.025 10.8893 198.06 9.88604C197.095 8.86385 195.675 8.35275 193.801 8.35275H187.497V19.7105ZM241.106 24.4807H225.432V34.3335H243.945V42H215.466V0.657893H244.002V8.35275H225.432V17.0698H241.106V24.4807ZM10.7428 105H0.804837V63.6579H10.7428V105ZM52.1985 105H42.2889L27.6375 79.2748V105H17.6711V63.6579H27.6375L42.2605 89.3831V63.6579H52.1985V105ZM58.5021 105V63.6579H71.819C75.4724 63.6579 78.7567 64.4908 81.6718 66.1566C84.587 67.8035 86.8585 70.1413 88.4864 73.17C90.1333 76.1798 90.9662 79.5587 90.9851 83.3068V85.2092C90.9851 88.9951 90.1806 92.3929 88.5716 95.4027C86.9815 98.3936 84.7289 100.741 81.8138 102.445C78.9176 104.129 75.6806 104.981 72.1029 105H58.5021ZM68.4685 71.3527V97.3335H71.9326C74.7909 97.3335 76.9868 96.3208 78.52 94.2953C80.0533 92.251 80.82 89.2222 80.82 85.2092V83.4203C80.82 79.4262 80.0533 76.4164 78.52 74.3909C76.9868 72.3655 74.7531 71.3527 71.819 71.3527H68.4685ZM131.106 85.1808C131.106 89.2128 130.359 92.781 128.863 95.8854C127.368 98.9899 125.238 101.384 122.474 103.069C119.73 104.735 116.597 105.568 113.076 105.568C109.555 105.568 106.432 104.763 103.706 103.154C100.98 101.526 98.8504 99.2076 97.3171 96.1978C95.8027 93.188 95.0077 89.7333 94.932 85.8338V83.5055C94.932 79.4546 95.6702 75.8864 97.1467 72.8009C98.6421 69.6964 100.772 67.3018 103.535 65.6171C106.318 63.9324 109.479 63.09 113.019 63.09C116.521 63.09 119.644 63.9229 122.389 65.5887C125.134 67.2545 127.264 69.6302 128.778 72.7157C130.311 75.7823 131.087 79.3032 131.106 83.2784V85.1808ZM120.97 83.4487C120.97 79.341 120.279 76.2271 118.897 74.107C117.534 71.968 115.575 70.8984 113.019 70.8984C108.022 70.8984 105.381 74.6465 105.097 82.1426L105.069 85.1808C105.069 89.2317 105.741 92.3456 107.085 94.5225C108.429 96.6994 110.426 97.7878 113.076 97.7878C115.594 97.7878 117.534 96.7183 118.897 94.5793C120.26 92.4403 120.951 89.3642 120.97 85.3511V83.4487ZM170.773 105H160.864L146.212 79.2748V105H136.246V63.6579H146.212L160.835 89.3831V63.6579H170.773V105ZM202.717 87.4807H187.043V97.3335H205.556V105H177.077V63.6579H205.613V71.3527H187.043V80.0698H202.717V87.4807ZM230.941 94.0114C230.941 92.5538 230.42 91.4181 229.379 90.6041C228.357 89.7901 226.549 88.9478 223.956 88.077C221.362 87.2062 219.242 86.3639 217.595 85.5499C212.238 82.9187 209.56 79.3032 209.56 74.7033C209.56 72.4128 210.222 70.3968 211.547 68.6553C212.891 66.8948 214.784 65.5319 217.226 64.5665C219.668 63.5822 222.413 63.09 225.461 63.09C228.433 63.09 231.092 63.62 233.439 64.6801C235.806 65.7401 237.642 67.2545 238.948 69.2232C240.254 71.1729 240.907 73.4066 240.907 75.9242H230.969C230.969 74.2395 230.449 72.9334 229.407 72.0058C228.385 71.0783 226.994 70.6145 225.233 70.6145C223.454 70.6145 222.044 71.012 221.003 71.8071C219.98 72.5832 219.469 73.577 219.469 74.7885C219.469 75.8485 220.037 76.8139 221.173 77.6847C222.309 78.5365 224.306 79.4262 227.164 80.3537C230.023 81.2624 232.37 82.2467 234.206 83.3068C238.673 85.8812 240.907 89.4305 240.907 93.9546C240.907 97.5702 239.544 100.41 236.818 102.473C234.092 104.536 230.354 105.568 225.603 105.568C222.252 105.568 219.214 104.972 216.488 103.779C213.781 102.568 211.737 100.921 210.355 98.8384C208.992 96.7373 208.31 94.3237 208.31 91.5979H218.305C218.305 93.8126 218.873 95.45 220.009 96.5101C221.164 97.5512 223.028 98.0718 225.603 98.0718C227.249 98.0718 228.546 97.7216 229.493 97.0212C230.458 96.3019 230.941 95.2986 230.941 94.0114ZM256.638 105H246.7V63.6579H256.638V105ZM287.559 97.2767H273.901L271.516 105H260.868L276.031 63.6579H285.401L300.677 105H289.972L287.559 97.2767ZM276.286 89.5819H285.174L280.716 75.2428L276.286 89.5819Z"
-                            fill="white" />
-                    </svg>
+                    <h1 class="header__main-title">explore</br>
+                        indonesia</h1>
 
-                    <button class="header__main-button button">Start travelling</button>
+                    <button class="button header__main-button ">Start travelling</button>
                 </div>
                 <div class="header__bottom">
                     <ds class="header__bottom-list">
-                        <dt class="list-number">01</dt>
-                        <dd class="list-item">
-                            <p class="list-title">Title here</p>
-                            <p class="list-body">Lorem ipsum dolor sit <br> amet et amet ist ame.</p>
-                        </dd>
-                        <dt class="list-number">02</dt>
-                        <dd class="list-item">
-                            <p class="list-title">Title here</p>
-                            <p class="list-body">Lorem ipsum dolor sit <br> amet et amet ist ame.</p>
-                        </dd>
-                        <dt class="list-number">03</dt>
-                        <dd class="list-item">
-                            <p class="list-title">Title here</p>
-                            <p class="list-body">Lorem ipsum dolor sit <br> amet et amet ist ame.</p>
-                        </dd>
+                        <div class="item__wrapper">
+                            <dt class="list-number">01</dt>
+                            <dd class="list-item">
+                                <p class="list-title">Title here</p>
+                                <p class="list-body">Lorem ipsum dolor sit <br> amet et amet ist ame.</p>
+                            </dd>
+                        </div>
+                        <div class="item__wrapper">
+                            <dt class="list-number">02</dt>
+                            <dd class="list-item">
+                                <p class="list-title">Title here</p>
+                                <p class="list-body">Lorem ipsum dolor sit <br> amet et amet ist ame.</p>
+                            </dd>
+                        </div>
+
+                        <div class="item__wrapper">
+                            <dt class="list-number">03</dt>
+                            <dd class="list-item">
+                                <p class="list-title">Title here</p>
+                                <p class="list-body">Lorem ipsum dolor sit <br> amet et amet ist ame.</p>
+                            </dd>
+                        </div>
+
                     </ds>
                 </div>
                 <div class="header__bottom-img">
                     <img src="./img/video.png" alt="">
-                    <svg class="life-video-svg" width="158" height="159" viewBox="0 0 158 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="life-video-svg" width="158" height="159" viewBox="0 0 158 159" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <ellipse cx="79" cy="79.5" rx="29" ry="29.5" fill="white" />
                         <path d="M73 70.0833V89.9167L88.125 80L73 70.0833Z" fill="black" />
 
@@ -94,26 +106,37 @@
         </header>
         <main>
             <section class="posts">
-                <div class="header__content">
-                    <div class="posts__item">
-                        <div class="posts__item-img">
-                            <img src="./img/stezka.png" alt="">
+                <div class="desktop__content">
+                    <div class="header__content">
+                        <div class="posts__item">
+                            <div class="posts__item-img">
+                                <img src="./img/stezka.png" alt="">
+                            </div>
+                            <div class="posts__item-text">
+                                <div class="posts__item-title">The walkways of Indonesia spellbind</div>
+                                <div class="posts__item-body">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit.
+                                    Fusce
+                                    commodo magna et libero mollis rhoncus. </div>
+                                <button class="button">Learn more</button>
+                            </div>
+
                         </div>
-                        <div class="posts__item-title">The walkways of Indonesia spellbind</div>
-                        <div class="posts__item-body">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
-                            commodo magna et libero mollis rhoncus. </div>
-                        <button class="button">Learn more</button>
-                    </div>
-                    <div class="posts__item">
-                        <div class="posts__item-img">
-                            <img src="./img/palms.jpg" alt="">
+                        <div class="posts__item">
+
+                            <div class="posts__item-text">
+                                <div class="posts__item-title">Perfect beaches exude relaxation and fun</div>
+                                <div class="posts__item-body">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit.
+                                    Fusce
+                                    commodo magna et libero mollis rhoncus. </div>
+                                <button class="button">Learn more</button>
+                            </div>
+                            <div class="posts__item-img">
+                                <img src="./img/stezka.png" alt="">
+                            </div>
                         </div>
-                        <div class="posts__item-title">Perfect beaches exude relaxation and fun</div>
-                        <div class="posts__item-body">Lorem ipsum dolor sit amet, conse ctetur adip iscing elit. Fusce
-                            commodo magna et libero mollis rhoncus. </div>
-                        <button class="button">Learn more</button>
                     </div>
                 </div>
+
 
 
             </section>
@@ -133,17 +156,32 @@
                     <div class="explore__numbers">
                         <div class="header__content">
                             <h1 class="numbers__title">By The Numbers</h1>
-                            <div class="numbers__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                commodomagna et libero.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                            <div class="numbers__amount">100+</div>
-                            <div class="numbers__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                commodo magna et libero.</div>
-                            <div class="numbers__amount">43,000+</div>
-                            <div class="numbers__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                commodo.</div>
-                            <div class="numbers__amount">30+</div>
-                            <div class="numbers__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                                commodo magna et libero.</div>
+                            <div class="numbers__text">Lorem ipsum dolor sit amet, consectetur adipiscing</br> elit.
+                                Fusce commodomagna et libero.Lorem ipsum</br> dolor sit amet, consectetur adipiscing
+                                elit.</div>
+                            <div class="numbers__desktop">
+                                <div class="numbers__item">
+                                    <div class="numbers__amount">100+</div>
+                                    <div class="numbers__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce
+                                        commodo magna et libero.</div>
+                                </div>
+                                <div class="numbers__item">
+                                    <div class="numbers__amount">43,000+</div>
+                                    <div class="numbers__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce
+                                        commodo.</div>
+                                </div>
+
+                                <div class="numbers__item">
+                                    <div class="numbers__amount">30+</div>
+                                    <div class="numbers__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce
+                                        commodo magna et libero.</div>
+                                </div>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -171,7 +209,7 @@
                 <div class="life__content header__content">
                     <h1 class="life__title">Live a life like you wouldn’t imagine, experience a life you wouldn’t
                         expect.</h1>
-                    <div class="header__bottom-img life-video">
+                    <div class="life-video">
                         <img src="./img/life-video.png" alt="">
                     </div>
                     <img class='life-video' src="./img/life-video3.png" alt="">
@@ -230,7 +268,17 @@
             </section>
         </main>
         <footer class="footer">
-            <button onClick="scrollToTop()"  class="link-up"><svg fill="#ffff" height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg></button>
+            <button onClick="scrollToTop()" class="link-up"><svg fill="#ffff" height="50px" width="50px" version="1.1"
+                    id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 330 330" xml:space="preserve">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path id="XMLID_224_"
+                            d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z">
+                        </path>
+                    </g>
+                </svg></button>
             <div class="footer__logo"><svg width="162" height="52" viewBox="0 0 162 52" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
